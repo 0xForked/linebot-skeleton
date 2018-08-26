@@ -1,0 +1,23 @@
+{
+    "name": "aasumitro/line-php-bot",
+    "description": "line bot with slim micro framework",
+    "homepage": "http://github.com/aasumitro/line-php-bot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agus Adhi Sumitro",
+            "email": "hello@aasumitro.id",
+            "homepage": "http://www.aasumitro.id/"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "monolog/monolog": "^1.23",
+        "linecorp/line-bot-sdk": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
