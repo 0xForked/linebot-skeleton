@@ -30,3 +30,14 @@
         $settings = $c->get('settings')['line'];
         return $settings;
     };
+
+/*
+|----------------------------------------------------
+| Eloquent ORM
+|----------------------------------------------------
+*/
+
+    $capsule = new \Illuminate\Database\Capsule\Manager;
+    $capsule->addConnection($container['settings']['db']);
+    $capsule->setAsGlobal();
+    $capsule->bootEloquent();

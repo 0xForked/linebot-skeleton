@@ -1,7 +1,7 @@
 <?php
 return [
     'settings' => [
-        'displayErrorDetails' => true, //false for production
+        'displayErrorDetails' => true,
 
         'addContentLengthHeader' => false,
 

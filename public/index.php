@@ -15,7 +15,7 @@ if (PHP_SAPI == 'cli-server') {
 | Register file app.php
 |-----------------------------------------------------
 */
-    require_once __DIR__ . '/../src/base/app.php';
+    require_once __DIR__ . '/../src/base/App.php';
 
 /*
 |-----------------------------------------------------

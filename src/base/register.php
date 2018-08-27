@@ -7,7 +7,7 @@
 */
 
     $container['LineWebhook'] = function ($container) {
-        return new \App\Controller\Line\Webhook($container);
+        return new \App\Controllers\Line\Callback($container);
     };
 
 /*

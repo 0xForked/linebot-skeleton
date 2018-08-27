@@ -1,11 +1,14 @@
 <?php
 
-namespace App\Controller;
+namespace App\Controllers;
+
+use App\Base\BotCore;
 
 use LINE\LINEBot;
 use LINE\LINEBot\HTTPClient\CurlHTTPClient;
 
-class Controller {
+class Controller extends BotCore
+{
 
     protected $container;
     protected $bot;
