@@ -2,7 +2,7 @@
 
 namespace App\Controller\Line;
 
-use App\Controller\Line\BotCore;
+use App\Controllers\Controller;
 
 use LINE\LINEBot\SignatureValidator as SignatureValidator;
 
@@ -10,7 +10,7 @@ use App\Model\Event;
 use App\Model\User;
 
 
-class Callback extends BotCore
+class Callback extends Controller
 {
 
     private $signature;
