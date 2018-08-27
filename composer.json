@@ -1,7 +1,7 @@
 {
-    "name": "aasumitro/line-php-bot",
-    "description": "line bot with slim micro framework",
-    "homepage": "http://github.com/aasumitro/line-php-bot",
+    "name": "aasumitro/line_chat_bot_service",
+    "description": "line bot service/webhook with slim micro framework",
+    "homepage": "http://github.com/aasumitro/line_chat_bot_service",
     "license": "MIT",
     "authors": [
         {

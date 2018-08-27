@@ -28,4 +28,5 @@
 
     $container['line'] = function ($c) {
         $settings = $c->get('settings')['line'];
+        return $settings;
     };
